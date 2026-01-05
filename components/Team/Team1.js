@@ -44,7 +44,8 @@ const teamMembers = [
     image: '/assets/nirojKarki.jpg',
     batch: 'Batch: 081 BME',
     phone: 'Ph.: 9746492636',
-    social: 'nirojkarki507@gmail.com',
+    social: '',
+    email: 'email: nirojkarki507@gmail.com',
   },
   {
     name: 'Atul Tiwari',
@@ -94,7 +95,8 @@ const teamMembers = [
     image: '/assets/garimaKC.jpg',
     batch: 'Batch: 080 BEI',
     phone: 'Ph.: 9846451668',
-    social: 'garimakc425@gmail.com',
+    social: '',
+    email: 'email: garimakc425@gmail.com',
   },
   {
     name: 'Diksha Timilsina',
@@ -102,7 +104,8 @@ const teamMembers = [
     image: '/assets/dikshaTimalsina.jpg',
     batch: 'Batch: 080 BEI',
     phone: 'Ph.: 9746326226',
-    social: 'dikshatimilsina10@gmail.com',
+    social: '',
+    email: 'email: dikshatimilsina10@gmail.com',
   },
   {
     name: 'Ronit shrestha',
@@ -110,7 +113,8 @@ const teamMembers = [
     image: '/assets/ronitShrestha.jpg',
     batch: 'Batch: 081 BEI',
     phone: 'Ph.: 9861862320',
-    social: 'stharonit88@gmail.com',
+    social: '',
+    email: 'email: stharonit88@gmail.com',
   },
   {
     name: 'Krishna kandel',
@@ -118,7 +122,8 @@ const teamMembers = [
     image: '/assets/krishnaKandel.jpg',
     batch: 'Batch: 081 BEI',
     phone: 'Ph.: 9766618021',
-    social: 'krishnaprasadkandel427@gmail.com',
+    social: '',
+    email: 'email: krishnaprasadkandel427@gmail.com',
   },
   {
     name: 'Ranjana Jha',
@@ -126,7 +131,8 @@ const teamMembers = [
     image: '/assets/ranjanaJha.jpg',
     batch: 'Batch: 081 BEI',
     phone: 'Ph.: 9865502175',
-    social: 'jharanjana97@gmail.com',
+    social: '',
+    email: 'email: jharanjana97@gmail.com',
   },
   {
     name: 'Sanskar Tiwari',
@@ -134,7 +140,8 @@ const teamMembers = [
     image: '/assets/sanskarTiwari.jpg',
     batch: 'Batch: 081 BEI',
     phone: 'Ph.: 9745999025',
-    social: 'sanskartiwari071@gmail.com',
+    social: '',
+    email: 'email: sanskartiwari071@gmail.com',
   },
   {
     name: 'Ajay Kumar Pasi',
@@ -142,7 +149,8 @@ const teamMembers = [
     image: '/assets/ajayKumarPasi.jpg',
     batch: 'Batch: 081 BEI',
     phone: 'Ph.: 9827530605',
-    social: 'apasi9100@gmail.com',
+    social: '',
+    email: 'email: apasi9100@gmail.com',
   },
   {
     name: 'Aviyan Sharma',
@@ -150,7 +158,8 @@ const teamMembers = [
     image: '/assets/aviyanSharma.jpg',
     batch: 'Batch: 081 BEI',
     phone: 'Ph.: 9764328893',
-    social: 'sharma.abhiyan9866@gmail.com',
+    social: '',
+    email: 'email: sharma.abhiyan9866@gmail.com',
   },
   {
     name: 'Saroj Gaire',
@@ -158,7 +167,8 @@ const teamMembers = [
     image: '/assets/sarojGaire.jpg',
     batch: 'Batch: 081 BME',
     phone: 'Ph.: 9746389527',
-    social: 'sarojgaire4@gmail.com',
+    social: '',
+    email: 'email: sarojgaire4@gmail.com',
   },
   {
     name: 'Tushar Badu',
@@ -166,7 +176,8 @@ const teamMembers = [
     image: '/assets/tusharBadu.jpg',
     batch: 'Batch: 081 BCE',
     phone: 'Ph.: 9841164576',
-    social: 'badutushar@gmail.com',
+    social: '',
+    email: 'email: badutushar@gmail.com',
   },
   {
     name: 'Shirshak Rimal',
@@ -174,7 +185,8 @@ const teamMembers = [
     image: '/assets/shirshakRimal.jpg',
     batch: 'Batch: 081 BEI',
     phone: 'Ph.: 9807924436',
-    social: 'shirshakrimal62@gmail.com',
+    social: '',
+    email: 'email: shirshakrimal62@gmail.com',
   },
   {
     name: 'Shivam Adhikari',
@@ -182,7 +194,8 @@ const teamMembers = [
     image: '/assets/shivamAdhikari.jpg',
     batch: 'Batch: 081 BEI',
     phone: 'Ph.: 9746408262',
-    social: 'itsshivamadhikari@gmail.com',
+    social: '',
+    email: 'email: itsshivamadhikari@gmail.com',
   },
   {
     name: 'Ayush Raj Shah',
