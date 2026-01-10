@@ -1,22 +1,25 @@
 "use client";
 import { useEffect, useRef } from "react";
-import lottie from "lottie-web";
+
 import Link from "next/link";
 
 const Herosection = ({ title, subtitle }) => {
   const lottieContainerRef = useRef(null);
 
   useEffect(() => {
-    const animation = lottie.loadAnimation({
-      container: lottieContainerRef.current,
-      renderer: "svg",
-      loop: true,
-      autoplay: true,
-      path: "/assets/robot.json",
+    let animation;
+    import("lottie-web").then((Lottie) => {
+      animation = Lottie.default.loadAnimation({
+        container: lottieContainerRef.current,
+        renderer: "svg",
+        loop: true,
+        autoplay: true,
+        path: "/assets/robot.json",
+      });
     });
 
     return () => {
-      animation.destroy();
+      if (animation) animation.destroy();
     };
   }, []);
 
@@ -33,9 +36,9 @@ const Herosection = ({ title, subtitle }) => {
               we&apos;ve got your passion covered. Discover your new favorite
               robotics journey today.
             </p>
-            <Link 
-            href="https://youtu.be/UMCdkk1Nf44?si=b4iPMhQXgDItMZdC"
-            target="blank"
+            <Link
+              href="https://youtu.be/UMCdkk1Nf44?si=b4iPMhQXgDItMZdC"
+              target="blank"
             >
               <div className="mt-4 sm:mt-5 md:mt-6">
                 <button className="mt-2 sm:mt-3 bg-black text-white rounded-full py-2 px-8 sm:py-2.5 sm:px-10 lg:py-3 lg:px-12 hover:bg-white hover:text-[#161617] hover:border hover:border-[#161617] transition-all duration-500">

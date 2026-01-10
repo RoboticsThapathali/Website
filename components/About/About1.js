@@ -1,22 +1,25 @@
 "use client";
 import { useEffect, useRef } from "react";
-import lottie from "lottie-web";
+
 import Link from "next/link";
 
 const Herosection = ({ title, subtitle }) => {
   const lottieContainerRef = useRef(null);
 
   useEffect(() => {
-    const animation = lottie.loadAnimation({
-      container: lottieContainerRef.current,
-      renderer: "svg",
-      loop: true,
-      autoplay: true,
-      path: "/assets/robotAbout.json",
+    let animation;
+    import("lottie-web").then((Lottie) => {
+      animation = Lottie.default.loadAnimation({
+        container: lottieContainerRef.current,
+        renderer: "svg",
+        loop: true,
+        autoplay: true,
+        path: "/assets/robotAbout.json",
+      });
     });
 
     return () => {
-      animation.destroy();
+      if (animation) animation.destroy();
     };
   }, []);
 
