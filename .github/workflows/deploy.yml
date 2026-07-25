@@ -6,7 +6,7 @@ on:
 jobs:
   deploy:
     name: Build & Deploy to VPS
-    runs-on: [self-hosted, club emis]
+    runs-on: [self-hosted, club, emis]
     env:
       NEXT_PUBLIC_GOOGLE_MAPS_API_KEY: ${{ secrets.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY }}
 
