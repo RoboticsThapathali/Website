@@ -1,4 +1,6 @@
 
+'use client';
+
 import React from 'react';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
 
@@ -106,17 +108,6 @@ const teamMembers = [
     github: '',
   },
   {
-    name: 'Diksha Timalsina',
-    position: 'General Member',
-    image: '/assets/dikshaTimalsina.jpg',
-    batch: 'Batch: 080 BEI',
-    phone: 'Ph.: 9746326226',
-    social: '',
-    email: 'email: dikshatimilsina10@gmail.com',
-    linkedin: '',
-    github: '',
-  },
-  {
     name: 'Ranjana Jha',
     position: 'General Member',
     image: '/assets/ranjanaJha.jpg',
@@ -168,6 +159,149 @@ const teamMembers = [
     phone: 'Ph.: 9807924436',
     social: '',
     email: 'email: shirshakrimal62@gmail.com',
+    linkedin: '',
+    github: '',
+  },
+  {
+    name: 'Anurag Karki',
+    position: 'General Member',
+    image: '/assets/Our%20Team_files/anurag.jpg',
+    batch: 'Batch: 081 BCT',
+    phone: 'Ph.: 9761755250',
+    social: '',
+    email: 'email: anuragkarki24@gmail.com',
+    linkedin: '',
+    github: '',
+  },
+  {
+    name: 'Nabin Chaudhary',
+    position: 'General Member',
+    image: '/assets/Our%20Team_files/Nabin.jpg',
+    batch: 'Batch: 081 BME',
+    phone: 'Ph.: 9762060660',
+    social: '',
+    email: 'email: nabinchy0321@gmail.com',
+    linkedin: '',
+    github: '',
+  },
+  {
+    name: 'Arbin Shakya',
+    position: 'General Member',
+    image: '/assets/Our%20Team_files/arbin.jpg',
+    batch: 'Batch: 081 BME',
+    phone: 'Ph.: 9765971233',
+    social: '',
+    email: 'email: arbinshakya26@gmail.com',
+    linkedin: '',
+    github: '',
+  },
+  {
+    name: 'Sankalpa Pandey',
+    position: 'General Member',
+    image: '/assets/Our%20Team_files/sankalpa.jpg',
+    batch: 'Batch: 081 BME',
+    phone: 'Ph.: 9808243648',
+    social: '',
+    email: 'email: pandeysankalpa780@gmail.com',
+    linkedin: '',
+    github: '',
+  },
+  {
+    name: 'Himal Acharya',
+    position: 'General Member',
+    image: '/assets/Our%20Team_files/himal.jpg',
+    batch: 'Batch: 081 BEI',
+    phone: 'Ph.: 9766003273',
+    social: '',
+    email: 'email: himalacharya960@gmail.com',
+    linkedin: '',
+    github: '',
+  },
+  {
+    name: 'Sakchham Laudari',
+    position: 'General Member',
+    image: '/assets/Our%20Team_files/sakshyam.jpg',
+    batch: 'Batch: 081 BME',
+    phone: 'Ph.: 9866291268',
+    social: '',
+    email: 'email: sakchhamlaudari@gmail.com',
+    linkedin: '',
+    github: '',
+  },
+  {
+    name: 'Prithak Nepal',
+    position: 'General Member',
+    image: '/assets/Our%20Team_files/prithak.jpg',
+    batch: 'Batch: 081 BME',
+    phone: 'Ph.: 9765562448',
+    social: '',
+    email: 'email: prithaknepal29@gmail.com',
+    linkedin: '',
+    github: '',
+  },
+  {
+    name: 'Kristina Shrestha',
+    position: 'General Member',
+    image: '/assets/Our%20Team_files/Kristina.jpg',
+    batch: 'Batch: 081 BME',
+    phone: 'Ph.: 9863554330',
+    social: '',
+    email: 'email: kristinashrestha419@gmail.com',
+    linkedin: '',
+    github: '',
+  },
+  {
+    name: 'Hariom Das Tharu',
+    position: 'General Member',
+    image: '/assets/Our%20Team_files/hariom.jpg',
+    batch: 'Batch: 081 BAM',
+    phone: 'Ph.: 9865265340',
+    social: '',
+    email: 'email: tharuhariomdas@gmail.com',
+    linkedin: '',
+    github: '',
+  },
+  {
+    name: 'Rabin Kumar Shah',
+    position: 'General Member',
+    image: '/assets/Our%20Team_files/Rabin.jpg',
+    batch: 'Batch: 081 BME',
+    phone: 'Ph.: 9808442629',
+    social: '',
+    email: 'email: shahrabin369@gmail.com',
+    linkedin: '',
+    github: '',
+  },
+  {
+    name: 'Dikshant Paudel',
+    position: 'General Member',
+    image: '/assets/Our%20Team_files/dikshant.jpg',
+    batch: 'Batch: 081 BME',
+    phone: 'Ph.: 9826197380',
+    social: '',
+    email: 'email: dpoudel234@gmail.com',
+    linkedin: '',
+    github: '',
+  },
+  {
+    name: 'Prabin Gautam',
+    position: 'General Member',
+    image: '/assets/Our%20Team_files/prabin.jpg',
+    batch: 'Batch: 081 BME',
+    phone: 'Ph.: 9767619426',
+    social: '',
+    email: 'email: prabinprabingautam26@gmail.com',
+    linkedin: '',
+    github: '',
+  },
+  {
+    name: 'Pratap Gautam',
+    position: 'General Member',
+    image: '/assets/Our%20Team_files/pratab.jpg',
+    batch: 'Batch: 081 BME',
+    phone: 'Ph.: 9701410908',
+    social: '',
+    email: 'email: pratapgautam4321@gmail.com',
     linkedin: '',
     github: '',
   },
@@ -300,8 +434,12 @@ const TeamCard = ({ member, cols = 'md:grid-cols-2 lg:grid-cols-4' }) => {
   return (
     <div className="bg-gradient-to-br from-white to-gray-100 p-6 rounded-lg shadow-md text-center max-w-md mx-auto mb-4 transform transition-transform hover:shadow-lg border border-gray-200">
       <img
-        src={member.image || '/placeholder.svg'}
+        src={member.image || '/assets/ourteam.png'}
         alt={member.name}
+        onError={(e) => {
+          e.currentTarget.onerror = null;
+          e.currentTarget.src = '/assets/ourteam.png';
+        }}
         className="w-48 h-48 object-cover mx-auto mb-4 rounded-full"
       />
 

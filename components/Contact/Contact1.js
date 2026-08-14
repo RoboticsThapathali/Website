@@ -37,8 +37,8 @@ const ContactCard = () => {
             <h2 className="text-xl md:text-2xl font-semibold mb-1">
               Phone Number
             </h2>
-            <p className="text-gray-600 mb-2">9864410395</p>
-            <p className="text-gray-600 mb-2">9823161343</p>
+            <p className="text-gray-600 mb-2">9866116023</p>
+            <p className="text-gray-600 mb-2">9844181467</p>
 
 
             <p className="text-gray-600 mb-4">Response time: 9am to 9pm</p>

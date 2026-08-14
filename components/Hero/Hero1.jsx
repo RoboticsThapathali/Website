@@ -28,10 +28,10 @@ const Herosection = ({ title, subtitle }) => {
       <div className="container mx-auto px-8 py-12 md:py-16 lg:py-20">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="flex flex-col items-start py-6 md:py-8 md:ml-4">
-            <h1 className="font-bold text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl text-black uppercase mb-3 sm:mb-4 md:mb-6 leading-tight mt-6 font-sans">
+            <h1 className="font-black text-[2.8rem] sm:text-[3.7rem] md:text-[4.6rem] lg:text-[5.1rem] xl:text-[6rem] leading-[0.9] tracking-[-0.08em] text-black uppercase mb-3 sm:mb-4 md:mb-6 mt-6 font-sans">
               {title}
             </h1>
-            <p className="mt-3 sm:mt-4 md:mt-5 text-base sm:text-lg md:text-xl md:leading-relaxed sm:word-spacing-0.02 md:word-spacing-0.05 text-gray-500 font-poppins">
+            <p className="mt-3 sm:mt-4 md:mt-5 text-base sm:text-lg md:text-xl md:leading-relaxed text-gray-500 font-poppins">
               From award-winning innovation to exciting robotics projects,
               we&apos;ve got your passion covered. Discover your new favorite
               robotics journey today.
