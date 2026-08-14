@@ -2,7 +2,7 @@
   "name": "rac",
   "type": "node",
   "path": "/srv/apps/rac",
-  "port": 3004,
+  "port": 3020,
   "domain": "rac.tcioe.edu.np",
   "build": "npm install && npm run build",
   "start": "npm run start"
