@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { FaWhatsapp } from 'react-icons/fa';
+import { FaLinkedin, FaGithub } from 'react-icons/fa';
 
 const coreCommittee = [
   {
@@ -10,6 +10,8 @@ const coreCommittee = [
     batch: 'Batch: 080 BEI',
     phone: 'Ph.: 9844181467',
     social: '',
+    linkedin: '',
+    github: '',
   },
   {
     name: 'Saurab Malla',
@@ -18,6 +20,8 @@ const coreCommittee = [
     batch: 'Batch: 080 BIE',
     phone: 'Ph.: 9866116023',
     social: 'ig: @where_is_saurab',
+    linkedin: '',
+    github:'',
   }
 ];
 
@@ -31,6 +35,8 @@ const teamMembers = [
     phone: 'Ph.: 9841164576',
     social: '',
     email: 'email: badutushar@gmail.com',
+    linkedin: '',
+    github: '',
   },
   {
     name: 'Krishna kandel',
@@ -40,6 +46,8 @@ const teamMembers = [
     phone: 'Ph.: 9766618021',
     social: '',
     email: 'email: krishnaprasadkandel427@gmail.com',
+    linkedin: '',
+    github: '',
   },
   
   {
@@ -50,6 +58,8 @@ const teamMembers = [
     phone: 'Ph.: 9746492636',
     social: '',
     email: 'email: nirojkarki507@gmail.com',
+    linkedin: '',
+    github: '',
   },
   {
     name: 'Saroj Gaire',
@@ -59,6 +69,8 @@ const teamMembers = [
     phone: 'Ph.: 9746389527',
     social: '',
     email: 'email: sarojgaire4@gmail.com',
+    linkedin: '',
+    github: '',
   },
   {
     name: 'Shivam Adhikari',
@@ -68,6 +80,8 @@ const teamMembers = [
     phone: 'Ph.: 9746408262',
     social: '',
     email: 'email: itsshivamadhikari@gmail.com',
+    linkedin: '',
+    github: '',
   },
   {
     name: 'Ronit shrestha',
@@ -77,6 +91,8 @@ const teamMembers = [
     phone: 'Ph.: 9861862320',
     social: '',
     email: 'email: stharonit88@gmail.com',
+    linkedin: '',
+    github: 'https://github.com/ronit-739',
   },
   {
     name: 'Garima K C',
@@ -86,6 +102,8 @@ const teamMembers = [
     phone: 'Ph.: 9846451668',
     social: '',
     email: 'email: garimakc425@gmail.com',
+    linkedin: '',
+    github: '',
   },
   {
     name: 'Diksha Timalsina',
@@ -95,6 +113,8 @@ const teamMembers = [
     phone: 'Ph.: 9746326226',
     social: '',
     email: 'email: dikshatimilsina10@gmail.com',
+    linkedin: '',
+    github: '',
   },
   {
     name: 'Ranjana Jha',
@@ -104,6 +124,8 @@ const teamMembers = [
     phone: 'Ph.: 9865502175',
     social: '',
     email: 'email: jharanjana97@gmail.com',
+    linkedin: '',
+    github: '',
   },
   {
     name: 'Ajay Kumar Pasi',
@@ -113,6 +135,8 @@ const teamMembers = [
     phone: 'Ph.: 9827530605',
     social: '',
     email: 'email: apasi9100@gmail.com',
+    linkedin: '',
+    github: '',
   },
   {
     name: 'Aviyan Sharma',
@@ -122,6 +146,8 @@ const teamMembers = [
     phone: 'Ph.: 9764328893',
     social: '',
     email: 'email: sharma.abhiyan9866@gmail.com',
+    linkedin: '',
+    github: '',
   },
   {
     name: 'Sanskar Tiwari',
@@ -131,6 +157,8 @@ const teamMembers = [
     phone: 'Ph.: 9745999025',
     social: '',
     email: 'email: sanskartiwari071@gmail.com',
+    linkedin: '',
+    github: '',
   },
   {
     name: 'Shirshak Rimal',
@@ -140,6 +168,8 @@ const teamMembers = [
     phone: 'Ph.: 9807924436',
     social: '',
     email: 'email: shirshakrimal62@gmail.com',
+    linkedin: '',
+    github: '',
   },
   {
     name: 'Ashish Chand',
@@ -148,6 +178,8 @@ const teamMembers = [
     batch: 'Batch: 079 BME',
     phone: 'Ph.: 9865651946',
     social: 'ig: @ashish_chand_thakuri08',
+    linkedin: '',
+    github: '',
   },
   {
     name: 'Aradhya Dhungel',
@@ -156,6 +188,8 @@ const teamMembers = [
     batch: 'Batch: 079 BEI',
     phone: 'Ph.: 9803463686',
     social: 'ig: @aradhya.dhungel',
+    linkedin: '',
+    github: '',
   },
   {
     name: 'Atul Tiwari',
@@ -164,6 +198,8 @@ const teamMembers = [
     batch: 'Batch: 079 BEI',
     phone: 'Ph.: 9762882680',
     social: 'ig: @atul_tw',
+    linkedin: '',
+    github: '',
   },
   {
     name: 'Pranjal Barnwal',
@@ -172,6 +208,8 @@ const teamMembers = [
     batch: 'Batch: 079 BEI',
     phone: 'Ph.: 9811857755',
     social: 'ig: @pranjal_barnwal_0',
+    linkedin: '',
+    github: '',
   },
   {
     name: 'Pankaj Kumar Mehta',
@@ -180,6 +218,8 @@ const teamMembers = [
     batch: 'Batch: 079 BEI',
     phone: 'Ph.: 9807376350',
     social: 'ig: @pankajmehta07',
+    linkedin: '',
+    github: '',
   },
   {
     name: 'Komal Kumari Pudasaini',
@@ -188,6 +228,8 @@ const teamMembers = [
     batch: 'Batch: 079 BME',
     phone: 'Ph.: 9860875255',
     social: '',
+    linkedin: '',
+    github: '',
   },
   {
     name: 'Pujan Rimal',
@@ -196,6 +238,8 @@ const teamMembers = [
     batch: 'Batch: 079 BIE',
     phone: 'Ph.: 9840438225',
     social: 'linkedin: pujan-rimal',
+    linkedin: 'https://linkedin.com/in/pujan-rimal',
+    github: '',
   },
   {
     name: 'Ayush Raj Shah',
@@ -205,6 +249,8 @@ const teamMembers = [
     phone: 'Ph.: 9823161343',
     social: 'ig: @ayushrajshah',
     email: 'email: ayush.078bme006@tcioe.edu.np',
+    linkedin: '',
+    github: '',
   },
   {
     name: 'Ramesh Kathayat',
@@ -214,6 +260,8 @@ const teamMembers = [
     phone: 'Ph.: 9708581527',
     social: 'fb: @rameshkathayat',
     email: 'email: kathayatramesh56@gmail.com',
+    linkedin: '',
+    github: '',
   },
   {
     name: 'Jenish Pant',
@@ -222,6 +270,8 @@ const teamMembers = [
     batch: 'Batch: 078 BEI',
     phone: 'Ph.: 9841551131',
     social: 'ig: @j3n1.sh',
+    linkedin: '',
+    github: '',
   },
   {
     name: 'Navaraj Dahal',
@@ -230,6 +280,8 @@ const teamMembers = [
     batch: 'Batch: 078 BAM',
     phone: 'Ph.: 9862241955',
     social: 'ig: @navaraj2057',
+    linkedin: '',
+    github: '',
   },
   {
     name: 'Prabesh Ghimire',
@@ -238,50 +290,61 @@ const teamMembers = [
     batch: 'Batch: 078 BAM',
     phone: 'Ph.: 9810595330',
     social: 'ig: @prweshghimire',
+    linkedin: '',
+    github: '',
   },
   
 ];
 
 const TeamCard = ({ member, cols = 'md:grid-cols-2 lg:grid-cols-4' }) => {
-  const raw = member.phone.replace(/\D/g, '').replace(/^0/, '');
-  const waLink = `https://wa.me/977${raw}`;
-
   return (
-    <div className="relative group bg-gradient-to-br from-yellow-200 to-purple-200 p-6 rounded-lg shadow-md text-center max-w-md mx-auto mb-4 transform transition-transform hover:scale-105">
+    <div className="bg-gradient-to-br from-white to-gray-100 p-6 rounded-lg shadow-md text-center max-w-md mx-auto mb-4 transform transition-transform hover:shadow-lg border border-gray-200">
       <img
         src={member.image || '/placeholder.svg'}
         alt={member.name}
         className="w-48 h-48 object-cover mx-auto mb-4 rounded-full"
       />
 
-      <div className="transition-opacity duration-300 opacity-100 group-hover:opacity-0">
-        <h2 className="text-lg font-semibold mb-2 text-[#000]">{member.name}</h2>
-        <p className="text-gray-500">{member.position}</p>
-      </div>
+      <h2 className="text-lg font-semibold mb-1 text-[#000]">{member.name}</h2>
+      <p className="text-gray-500 text-sm mb-3">{member.position}</p>
+      <p className="text-xs text-gray-400 mb-4">{member.batch}</p>
 
-      <div className="absolute inset-0 flex flex-col justify-center items-center w-full h-full p-3 bg-white/80 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 select-text">
-        <p>{member.batch}</p>
-
-        {member.phone && (
-        <div className="mt-2 flex items-center justify-center gap-2">
-          <span className="select-text leading-none">
-            {member.phone}
-          </span>
-
+      {/* Social Links - Always Visible */}
+      <div className="flex items-center justify-center gap-4 pt-4 border-t border-gray-200">
+        {member.linkedin ? (
           <a
-            href={waLink}
+            href={member.linkedin}
             target="_blank"
             rel="noopener noreferrer"
-            aria-label={`WhatsApp ${member.name}`}
-            className="text-green-600 hover:text-green-800 transition-colors"
+            aria-label={`LinkedIn ${member.name}`}
+            className="text-blue-600 hover:text-blue-800 transition-colors transform hover:scale-110 cursor-pointer"
           >
-            <FaWhatsapp className="align-middle" />
+            <FaLinkedin size={24} />
           </a>
-        </div>
-      )}
-
-        {member.social && <p className="mt-1">{member.social}</p>}
+        ) : (
+          <span className="text-gray-300 cursor-default">
+            <FaLinkedin size={24} />
+          </span>
+        )}
+        
+        {member.github ? (
+          <a
+            href={member.github}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label={`GitHub ${member.name}`}
+            className="text-gray-800 hover:text-gray-900 transition-colors transform hover:scale-110 cursor-pointer"
+          >
+            <FaGithub size={24} />
+          </a>
+        ) : (
+          <span className="text-gray-300 cursor-default">
+            <FaGithub size={24} />
+          </span>
+        )}
       </div>
+      
+      {member.social && <p className="mt-3 text-xs text-gray-600">{member.social}</p>}
     </div>
   );
 };
